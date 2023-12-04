@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.view-btn{
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+}
+.blog-btn{
+    border-radius: 4px;
+background: #FF1F3D;
+padding: 10px 20px;
+justify-content: center;
+color: white;
+border: none;
+}
+#btn-section{
+     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn-common{
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.onlicke-btn-style{
+    background: #FF1F3D;
+    color: white;
+}
+.onclick-btn2{
+    background-color: #F0F0F0;
+    color: black;
+}
+
+ 
+.img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.ancor{
+    text-decoration: none;
+    color: white;
+}
