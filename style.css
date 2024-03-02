@@ -54,3 +54,29 @@ border: none;
     text-decoration: none;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .btn-common {
+        margin: 5px;
+    }
+
+    .card-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-container img {
+        max-width: 80px;
+    }
+}
